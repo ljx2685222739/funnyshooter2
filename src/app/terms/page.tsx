@@ -6,6 +6,9 @@ import Footer from '../../components/Footer';  // 导入 Footer 组件
 export const metadata: Metadata = {
   title: 'Terms of Service - Funny Shooter 2',
   description: 'Terms of Service for Funny Shooter 2 - Understand our game rules and user agreement.',
+  alternates: {
+    canonical: 'https://funnyshooter2.online/terms',
+  },
 };
 
 export default function TermsOfService() {

@@ -6,6 +6,9 @@ import Footer from '../../components/Footer';
 export const metadata: Metadata = {
   title: 'Blogs - Funny Shooter 2',
   description: 'Read the latest blogs and updates about Funny Shooter 2.',
+  alternates: {
+    canonical: 'https://funnyshooter2.online/blogs',
+  },
 };
 
 export default function Blogs() {

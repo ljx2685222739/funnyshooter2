@@ -6,6 +6,9 @@ import Footer from '../../components/Footer';  // 导入 Footer 组件
 export const metadata: Metadata = {
   title: 'Privacy Policy - Funny Shooter 2',
   description: 'Privacy Policy for Funny Shooter 2 - Learn how we protect your personal information and data.',
+  alternates: {
+    canonical: 'https://funnyshooter2.online/privacy',
+  },
 };
 
 export default function PrivacyPolicy() {
