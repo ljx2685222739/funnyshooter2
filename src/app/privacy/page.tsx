@@ -86,7 +86,7 @@ export default function PrivacyPolicy() {
             We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date.
           </p>
           <p className="mb-4">
-            Last updated: [Insert Date]
+            {"Last updated"}
           </p>
           <p className="mb-4">
             If you have any questions about this Privacy Policy, please contact us at [Insert Contact Information].
