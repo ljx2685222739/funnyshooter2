@@ -93,7 +93,7 @@ export default function TermsOfService() {
             We reserve the right, at our sole discretion, to modify or replace these Terms at any time. By continuing to access or use our game after those revisions become effective, you agree to be bound by the revised terms.
           </p>
           <p className="mb-4">
-            Last updated: [Insert Date]
+            {"Last updated: [Insert Date]"}
           </p>
           <p className="mb-4">
             If you have any questions about these Terms, please contact us at [Insert Contact Information].
