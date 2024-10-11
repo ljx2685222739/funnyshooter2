@@ -13,6 +13,10 @@ export const metadata: Metadata = {
     { rel: 'icon', type: 'image/png', sizes: '16x16', url: '/favicon-16x16.png' },
     { rel: 'manifest', url: '/site.webmanifest' },
   ],
+  metadataBase: new URL('https://funnyshooter2.online'),
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function RootLayout({
