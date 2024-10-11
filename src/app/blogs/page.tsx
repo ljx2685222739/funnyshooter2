@@ -42,7 +42,7 @@ export default function Blogs() {
           <article className="bg-green-600 bg-opacity-50 p-6 rounded-lg">
             <h2 className="text-2xl font-semibold mb-4">Community Spotlight: Best Funny Moments</h2>
             <p className="mb-4">
-              We{"'"}ve compiled the funniest moments from our community. Prepare to laugh out loud at these incredible gameplay clips!
+              {`We've compiled the funniest moments from our community. Prepare to laugh out loud at these incredible gameplay clips!`}
             </p>
             <Link href="/blog/funny-moments" className="text-yellow-300 hover:underline">Read more</Link>
           </article>

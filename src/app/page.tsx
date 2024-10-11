@@ -38,7 +38,9 @@ export default function Home() {
 
           <section className="bg-green-600 bg-opacity-50 p-6 rounded-lg transform hover:scale-105 transition duration-300">
             <h2 className="text-3xl font-semibold mb-4">What is Funny Shooter 2?</h2>
-            <p className="mb-4">Funny Shooter 2 is a fast-paced, multiplayer online shooter that blends comedy with intense action. Set in a vibrant, cartoon-style world, Funny Shooter 2 offers players a unique gaming experience where laughter and strategy go hand in hand. Whether you're a seasoned gamer or new to the world of online shooters, Funny Shooter 2 has something for everyone.</p>
+            <p className="mb-4">
+              {`Funny Shooter 2 is a fast-paced, multiplayer online shooter that blends comedy with intense action. Set in a vibrant, cartoon-style world, Funny Shooter 2 offers players a unique gaming experience where laughter and strategy go hand in hand. Whether you're a seasoned gamer or new to the world of online shooters, Funny Shooter 2 has something for everyone.`}
+            </p>
             <h3 className="text-2xl font-semibold mt-6 mb-3">Key Features of Funny Shooter 2</h3>
             <ul className="list-disc list-inside space-y-2">
               <li>Diverse cast of hilarious characters</li>
@@ -122,8 +124,12 @@ export default function Home() {
 
         <section className="mt-12 text-center">
           <h2 className="text-3xl font-semibold mb-4">Ready to Join the Fun?</h2>
-          <p className="mb-4">Don't miss out on the gaming phenomenon that's taking the world by storm. Funny Shooter 2 offers an unparalleled blend of humor, action, and strategy that appeals to gamers of all skill levels. Whether you're looking for casual fun or intense competition, Funny Shooter 2 has something for everyone.</p>
-          <p className="mb-4">Download Funny Shooter 2 now and experience the laughter, excitement, and thrill of this incredible online shooter. Get ready to laugh, shoot, and conquer in the wacky world of Funny Shooter 2!</p>
+          <p className="mb-4">
+            {`Don't miss out on the gaming phenomenon that's taking the world by storm. Funny Shooter 2 offers an unparalleled blend of humor, action, and strategy that appeals to gamers of all skill levels. Whether you're looking for casual fun or intense competition, Funny Shooter 2 has something for everyone.`}
+          </p>
+          <p className="mb-4">
+            {`Download Funny Shooter 2 now and experience the laughter, excitement, and thrill of this incredible online shooter. Get ready to laugh, shoot, and conquer in the wacky world of Funny Shooter 2!`}
+          </p>
         </section>
       </div>
 
