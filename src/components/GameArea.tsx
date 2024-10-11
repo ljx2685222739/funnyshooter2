@@ -27,7 +27,7 @@ export default function GameArea() {
       <div className="w-full max-w-5xl aspect-video rounded-lg overflow-hidden shadow-lg bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1">
         <iframe
           key={iframeKey}
-          src="https://html5.gamedistribution.com/a1b7ac4025214a5cb0bd01a4f675513a/"
+          src="https://html5.gamedistribution.com/a1b7ac4025214a5cb0bd01a4f675513a/?utm_source=funnyshooter2.online&utm_medium=funny-shooter-2&utm_campaign=block-and-redirect"
           className="w-full h-full rounded-lg"
           allowFullScreen
         ></iframe>
